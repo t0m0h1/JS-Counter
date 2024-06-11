@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Counter Application</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <div class="contauiner">
-            <h1>
-                counter
-            </h1>
-            <span id="value">0</span>
+        <section class="container" aria-labelledby="counter-heading">
+            <h1 id="counter-heading">Counter</h1>
+            <span id="value" aria-live="polite">0</span>
             <div class="button-container">
-                <button id="decrease" class="button">decrease</button>
-                <button id="reset" class="button">reset</button>
-                <button id="increase" class="button">increase</button>
+                <button id="decrease" class="button" aria-label="Decrease counter">Decrease</button>
+                <button id="reset" class="button" aria-label="Reset counter">Reset</button>
+                <button id="increase" class="button" aria-label="Increase counter">Increase</button>
             </div>
-        </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>

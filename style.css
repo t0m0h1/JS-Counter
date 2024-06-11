@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,17 +83,9 @@ h1 {
     color: #fff;
 }
 
-#decrease:hover {
-    background-color: darken(var(--danger-color), 10%);
-}
-
 #reset {
     background-color: var(--secondary-color);
     color: #fff;
-}
-
-#reset:hover {
-    background-color: darken(var(--secondary-color), 10%);
 }
 
 #increase {
@@ -101,6 +93,16 @@ h1 {
     color: #fff;
 }
 
-#increase:hover {
-    background-color: darken(var(--primary-color), 10%);
+/* Darken colors on hover */
+#decrease:hover {
+    background-color: #a63c3c; /* Adjusted for better compatibility */
 }
+
+#reset:hover {
+    background-color: #a47b2b; /* Adjusted for better compatibility */
+}
+
+#increase:hover {
+    background-color: #339644; /* Adjusted for better compatibility */
+}
+

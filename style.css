@@ -21,9 +21,9 @@ body {
 
 /* Custom properties for colors */
 :root {
-    --primary-color: #28a745;
-    --secondary-color: #ffc107;
-    --danger-color: #ff4d4d;
+    --primary-color: #3cad56;
+    --secondary-color: #bd9a34;
+    --danger-color: #b94343;
     --text-color: #333;
     --background-color: #fff;
     --box-shadow: rgba(0, 0, 0, 0.1);
